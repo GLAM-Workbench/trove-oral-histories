@@ -1,0 +1,13 @@
+-c requirements.txt
+pytest
+nbval
+black[jupyter]
+isort
+flake8
+nbqa
+pre-commit
+rocrate @ git+https://github.com/ResearchObject/ro-crate-py.git@dc3f75b0d0390dedbf9a830b6325b76dba468f1f
+giturlparse
+requests
+python-dotenv
+jupyterlab-code-formatter
